@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Línea de Tiempo – Historia del Cristianismo y del Mundo</title>
+    <link rel="stylesheet" href="Linea_de_Tiempo.css" />
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <center>
+        <h1 class="text-center mb-4">
+          Línea de Tiempo: Cristianismo y Mundo (30–313 d.C.)
+        </h1>
+      </center>
+
+      <div class="timeline-horizontal">
+        <!-- Eventos cargados dinámicamente -->
+      </div>
+      <div class="timeline-horizontal-world">
+        <!-- Eventos del mundo cargados dinámicamente -->
+      </div>
+    </div>
+    <div id="event-modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-year"></p>
+        <p id="modal-subtitle"></p>
+        <p id="modal-text"></p>
+        <img id="modal-image" class="hidden" alt="Imagen del evento" />
+      </div>
+    </div>
+    <script src="Linea_de_Tiempo.js"></script>
+  </body>
+</html>
